@@ -805,7 +805,7 @@ background-color:#31D0AA;
     transform: translate(-50%, -50%) scale(1);
 
     width: 408px;
-    height: 584px;
+    
 
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -861,7 +861,7 @@ background-color:#31D0AA;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
-    line-height: 240%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 16px;
@@ -873,10 +873,10 @@ padding:72px 24px 24px 24px
 
 .label__text{
     font-family: 'Roboto';
-    
+    display: block;
     
     font-size: 12px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
@@ -934,8 +934,7 @@ padding:72px 24px 24px 24px
      border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-left: 16px;
-    padding-top: 16px;
+    padding:16px 16px 16px 16px;
 }
 
 .label__textarea:focus{
